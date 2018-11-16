@@ -56,5 +56,5 @@ class Train():
 
         next_three = [x.strftime("%H:%M") for x in next_three]
 
-        print(f"Next trains at: {next_three}")
+        print(f"Next trains at: {next_three}", flush=True)
         return next_three
